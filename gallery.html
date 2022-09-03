@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="gallery.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="kotak-1 kotak">
+        <a href="#overlay-1" class="img-1 img"></a>
+        <div class="nama">Japan Class</div>
+        <div class="border-effect"></div>
+      </div>
+      <div class="kotak-2 kotak">
+        <a href="#overlay-2" class="img-2 img"></a>
+        <div class="nama">Japan Clause</div>
+        <div class="border-effect"></div>
+      </div>
+      <div class="kotak-3 kotak">
+        <a href="#overlay-3" class="img-3 img"></a>
+        <div class="nama">Horiyoki</div>
+        <div class="border-effect"></div>
+      </div>
+      <div class="kotak-4 kotak">
+        <a href="#overlay-4" class="img-4 img"></a>
+        <div class="nama">Center Room</div>
+        <div class="border-effect"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="overlay" id="overlay-1">
+      <a href="#overlay-4" class="prev">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <img src="img/image1.jpg" alt="pict1" />
+      <a href="#overlay-2" class="next">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <a href="#" class="close">X</a>
+    </div>
+
+    <div class="overlay" id="overlay-2">
+      <a href="#overlay-1" class="prev">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <img src="img/image2.jpg" alt="pict2" />
+      <a href="#overlay-3" class="next">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <a href="#" class="close">X</a>
+    </div>
+
+    <div class="overlay" id="overlay-3">
+      <a href="#overlay-2" class="prev">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <img src="img/image3.jpg" alt="pict3" />
+      <a href="#overlay-4" class="next">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <a href="#" class="close">X</a>
+    </div>
+
+    <div class="overlay" id="overlay-4">
+      <a href="#overlay-3" class="prev">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <img src="img/image4.jpg" alt="pict4" />
+      <a href="#overlay-1" class="next">
+        <div class="click"></div>
+        <div class="click-2"></div>
+      </a>
+      <a href="#" class="close">X</a>
+    </div>
+  </body>
+</html>

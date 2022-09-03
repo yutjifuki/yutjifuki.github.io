@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Box</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Gallery</h1>
+    <div class="container">
+      <ul>
+        <!-- satu -->
+        <li>
+          <a href="#gambar1">
+            <img src="img/image1.jpg" alt="kelas" />
+            <span>Kelas satu</span>
+          </a>
+          <div class="overlay" id="gambar1">
+            <a href="#" class="close">X</a>
+            <a href="#gambar4" class="prev">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+            <img src="img/image1.jpg" alt="tes" />
+            <a href="#gambar2" class="next">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+          </div>
+        </li>
+        <!-- dua -->
+        <li>
+          <a href="#gambar2">
+            <img src="img/image2.jpg" alt="kelas" />
+            <span>Kelas dua</span>
+          </a>
+          <div class="overlay" id="gambar2">
+            <a href="#" class="close">X</a>
+            <a href="#gambar1" class="prev">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+            <img src="img/image2.jpg" alt="tes" />
+            <a href="#gambar3" class="next">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+          </div>
+        </li>
+        <!-- tiga -->
+        <li>
+          <a href="#gambar3">
+            <img src="img/image3.jpg" alt="kelas" />
+            <span>Kelas tiga</span>
+          </a>
+          <div class="overlay" id="gambar3">
+            <a href="#" class="close">X</a>
+            <a href="#gambar2" class="prev">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+            <img src="img/image3.jpg" alt="tes" />
+            <a href="#gambar4" class="next">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+          </div>
+        </li>
+        <!-- empat -->
+        <li>
+          <a href="#gambar4">
+            <img src="img/image4.jpg" alt="kelas" />
+            <span>Kelas empat</span>
+          </a>
+          <div class="overlay" id="gambar4">
+            <a href="#" class="close">X</a>
+            <a href="#gambar3" class="prev">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+            <img src="img/image4.jpg" alt="tes" />
+            <a href="#gambar1" class="next">
+              <div class="click"></div>
+              <div class="click2"></div>
+            </a>
+          </div>
+        </li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </body>
+</html>
